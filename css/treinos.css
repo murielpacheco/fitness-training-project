@@ -1,0 +1,47 @@
+.section-main {
+    background-color: rgb(51, 47, 47);
+    height: 100vh;
+}
+
+.section-treinos {
+    color: white;
+    background-color: rgb(51, 47, 47);
+    display: flex;
+    padding-top: 130px;
+    text-align: center;
+    position: relative;
+} 
+
+.treinos-div {
+    display: block;
+    height: 100px;
+    position:absolute !important;
+    top: 5%;
+    right: 42%;
+    overflow: hidden;
+    padding-top: 15px;
+    color: var(--clrText);  
+}
+
+.treinos-div h1 {
+    font-size: 5.5rem;
+}
+
+
+h2, h4 {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+@media (min-width: 900px) {
+    .section-treinos {
+        flex-direction: row;
+    }
+}
